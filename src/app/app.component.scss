@@ -1,0 +1,143 @@
+::ng-deep {
+  .mat-tab-label {
+    color: black !important;
+  }
+}
+p {
+    font-family: Lato;
+  }
+  .mat-table {
+    background: #424242;
+}
+  table {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .btn-edit {
+    text-align: right;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .table-header {
+    width: auto;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .button-add-row {
+    background: rgb(14, 159, 191);
+    color: #ffffff;
+  }
+  
+  .button-remove-rows {
+    background: red;
+    color: #ffffff;
+    margin-right: 5px;
+  }
+  
+  .button-remove {
+    color: red;
+  }
+  
+  ::ng-deep .mat-form-field-infix {
+    width: 100% !important;
+  }
+  
+  .form-input {
+    padding-right: 5px;
+  }
+  .cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px
+    rgba(0, 0, 0, 0.14), 0 3px 14px 2px
+    rgba(0, 0, 0, 0.12);
+  
+    height: 48px;
+    background-color: grey;
+    display: table;
+  }
+  
+  .cdk-drag-preview td {
+    flex-grow: 2;
+    font-size: 14px;
+    padding: 4px;
+    vertical-align: middle;
+  }
+  
+  .cdk-drag-placeholder {
+    background-color: black;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .cdk-drop-list-dragging .mat-row:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  p {
+    color: rgb(14, 159, 191);
+    font-size: large;
+    font-weight: bold;
+    font-family: inherit;
+  }
+  table {
+    width: 100%;
+  }
+  
+  tr.example-detail-row {
+    height: 0;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):hover {
+    background: black;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):active {
+    background: black;
+  }
+  
+  .example-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .example-element-detail {
+    overflow: hidden;
+    display: block;
+  }
+  
+  .example-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+  }
+  
+  .example-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  .example-element-description {
+    padding: 16px;
+  }
+  
+  .example-element-description-attribution {
+    opacity: 0.5;
+  }
+  
+  
+  
+  
