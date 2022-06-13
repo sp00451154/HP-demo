@@ -109,5 +109,8 @@
       }
     }
   },
-  "defaultProject": "angular-editable-table"
+  "defaultProject": "angular-editable-table",
+  "cli": {
+    "analytics": "463bf2b0-2a69-4b85-8948-fae3b1bc12f7"
+  }
 }
