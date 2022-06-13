@@ -8,7 +8,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod",
     "heroku-postbuild": "ng build --prod"
   },
   "private": true,
@@ -35,6 +34,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.3.0",
     "@angular/cli": "^14.0.1",
+    "@angular/compiler-cli": "^14.0.1",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "enhanced-resolve": "^3.3.0",
