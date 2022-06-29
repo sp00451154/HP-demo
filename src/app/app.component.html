@@ -1,5 +1,5 @@
 
-<mat-tab-group mat-align-tabs="start">
+<!-- <mat-tab-group mat-align-tabs="start">
 <mat-tab label="Resource Links">
   <article class="table-header" style="padding: 20px;">
       <div>
@@ -51,9 +51,9 @@
     <div *cdkDragPlaceholder></div>
   </table>
 </mat-tab>
-</mat-tab-group>
+</mat-tab-group> -->
   
- <!-- <mat-tab-group mat-align-tabs="start">
+ <mat-tab-group mat-align-tabs="start">
   <mat-tab label="Regional Groups">
     <article class="table-header" style="padding: 20px;">
       <div>
@@ -92,7 +92,7 @@
             <div *ngSwitchCase="'isSelected'"></div>
             <div class="btn-edit" *ngSwitchCase="'isEdit'">
               <button mat-button (click)="editRow(element)">
-                Done
+                Save
               </button>
             </div>
             <mat-form-field class="form-input" *ngSwitchCase="'date'" appearance="fill">
@@ -112,13 +112,13 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns" cdkDrag></tr>
       <div *cdkDragPlaceholder></div>
     </table>
-    <article class="table-header" style="padding: 20px;float: right;">
+    <!-- <article class="table-header" style="padding: 20px;float: right;">
       <div>
         <button class="button-add-row" mat-button (click)="openSnackBar()">
           Save
         </button>
       </div>
-    </article>
+    </article> -->
   </mat-tab>
   <mat-tab label="Resource Links in Regional Groups">
     <table mat-table [dataSource]="dataSource1" multiTemplateDataRows class="mat-elevation-z8"
@@ -170,7 +170,7 @@
                       <div *ngSwitchCase="'isSelected'"></div>
                       <div class="btn-edit" *ngSwitchCase="'isEdit'">
                         <button mat-button (click)="editRow(element)">
-                          Done
+                          Save
                         </button>
                       </div>
                       <mat-form-field class="form-input" *ngSwitchCase="'date'" appearance="fill">
@@ -201,12 +201,12 @@
         (click)="expandedElement = expandedElement === element ? null : element"></tr>
       <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
     </table>
-    <article class="table-header" style="padding: 20px;float: right;">
+    <!-- <article class="table-header" style="padding: 20px;float: right;">
       <div>
         <button class="button-add-row" mat-button (click)="openSnackBar()">
           Save
         </button>
       </div>
-    </article>
+    </article> -->
   </mat-tab>
-</mat-tab-group> -->
+</mat-tab-group>
